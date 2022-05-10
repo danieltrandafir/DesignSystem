@@ -1,0 +1,280 @@
+@media screen and (max-width: 900px) {
+  header img {
+   position: relative;
+   padding: 0;
+   margin: 0;
+   right: 80px;
+   width: 100%;
+  }
+
+  header h1 {
+  right: 100px;
+    
+  }
+
+  .navi li{
+    font-size: 12px;
+  }
+
+  .navi ul{
+    margin: 1px;
+    padding: 15px 20px 20px 20px;
+  }
+}
+
+html {
+  background-color: #fff;
+  border: 5px solid hsl(149, 33%, 93%);
+  margin: 1em;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px;
+}
+
+body {
+  background-color: hsl(149, 33%, 93%);
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+}
+
+header img {
+  background-size: cover;
+  border-radius: 10px;
+  height: 22em;
+  margin-left: 10em;
+  width: 80%;
+  
+}
+
+header h1 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 46px;
+  margin-left: 30%;
+  position: absolute;
+  bottom: 7em;
+  text-shadow: 2px 1px 2px;
+}
+
+main {
+  margin: 10% 10% 0 10%;
+}
+
+.navi {
+  position: fixed;
+  left: 0;
+  z-index: 1;
+  top: 5px;
+}
+
+.navi a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+}
+
+.navi li {
+  background-color: hsl(48, 100%, 45%);
+  display: block;
+  margin-bottom: 10px;
+  border: 4px outset grey;
+  padding: 6px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.navi li:hover {
+  background: hsl(69, 70%, 55%);
+  cursor: pointer;
+  width: 80%;
+}
+
+footer {
+  text-align: center;
+}
+
+footer button {
+  background: hsl(240, 20%, 70%);
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px black;
+  padding: 10px;
+  margin: 20px;
+}
+
+footer button:hover {
+  background: hsl(240, 19%, 85%);
+  font-size: 90%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+  font-family: Comfortaa;
+  font-weight: 700;
+}
+
+hr {
+  width: 90%;
+}
+
+.colors {
+  background: center/cover url("https://images.pexels.com/photos/5933/color-paint-palette-wall-painting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5em 2em;
+  text-align: center;
+  margin: 5em 0;
+  border-radius: 10px;
+  width: 95%;
+  justify-content: center;
+  opacity: 0.85;
+}
+
+.color1, .color2, .color3, .color4 {
+  border-radius: 70px;
+  box-shadow: 5px 5px 3px;
+  margin: 20px;
+}
+
+.color1 p, .color2 p, .color3 p, .color4 p {
+  padding-top: 5%;
+}
+
+div .color1 {
+  background-color: hsl(149, 33%, 93%) ;
+  height: 170px;
+  width: 300px;
+  transition: height 1s, width 1s, box-shadow 1s;
+}
+
+div .color1:hover {
+  height: 180px;
+  width: 330px;
+  box-shadow: -5px 5px 3px;
+}
+
+div .color2 {
+  background-color: hsl(240, 19%, 85%);
+  height: 170px;
+  width: 300px;
+  transition: height 1s, width 1s, box-shadow 1s;
+}
+
+div .color2:hover {
+  height: 180px;
+  width: 330px;
+  box-shadow: -5px 5px 3px;
+}
+
+div .color3 {
+  background-color: hsl(48, 100%, 45%);
+  height: 170px;
+  width: 300px;
+  transition: height 1s, width 1s, box-shadow 1s;
+}
+
+div .color3:hover {
+  height: 180px;
+  width: 330px;
+  box-shadow: -5px 5px 3px;
+}
+
+div .color4 {
+  background-color: hsl(180, 20%, 80%);
+  height: 170px;
+  width: 300px;
+  transition: height 1s, width 1s, box-shadow 1s;
+}
+
+div .color4:hover {
+  height: 180px;
+  width: 330px;
+  box-shadow: -5px 5px 3px;
+}
+
+#text-style > h2, #buttons > h2, #colors > h2, #fonts > h2 {
+  background-color: hsl(218, 20%, 27%);
+  border-radius: 10px;
+  color: #fff;
+  padding: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.fonts {
+  display: flex;
+  padding-left: 1em;
+  margin: 5em;
+  justify-content: center;
+  width: 95%;
+}
+
+.font1 {
+  margin-right: 5em;
+}
+
+.font1, .font2 {
+  padding: 0 1em;
+  border-radius: 10px;
+  border: 2px solid hsl(218, 20%, 27%);
+  box-shadow: 2px 3px 1px hsl(218, 20%, 27%);
+  background: hsl(180, 20%, 80%);
+}
+
+.font2 .bold {
+  font-weight: 700;
+}
+
+#text-style .text-content, #fonts .fonts{
+  padding: 2em;
+  background:  hsl(240, 19%, 85%);
+  border-radius: 10px;
+  margin: 5em 0;
+}
+
+#text-style .text-content {
+  display: flexbox;
+  flex-flow: row;
+  width: 95%;
+}
+
+#text-style li {
+  padding-left: 1em;
+  list-style-type: circle;
+}
+
+.nav-button {
+  background-color: hsl(48, 100%, 45%);
+  border: 4px outset grey;
+  border-radius: 10px;
+  font-weight: 900;
+  text-align: center;
+  margin: 5px;
+  padding-top: 10px;
+  height: 30px;
+  width: 100px;
+}
+
+.other-button {
+  background-color: hsl(240, 20%, 70%);
+  box-shadow: 1px 1px 2px black;
+  border-radius: 10px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  margin: 5px;
+  height: 30px;
+  width: 100px;
+}
+
+.outer-nav, .outer-other {
+  background-color: hsl(180, 20%, 80%);
+  border-radius: 10px;
+  display: inline-flex;
+  flex-flow: column;
+  width: 40%;
+}
+
+.nav-button-content, .other-button-content {
+  width: fit-content;
+  margin-top: 0.5em;
+  padding: 0.5em;
+}
